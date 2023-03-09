@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'users/show'
+  get 'users/edit'
   get 'post_images/new'
   get 'post_images/index'
   get 'post_images/show'
@@ -8,7 +10,9 @@ Rails.application.routes.draw do
 root to: "homes#top"
 
 resources :post_images,only:[:new,:create,:index,:show,:destroy]
+resources :users,only:[:show,:edit,:update]
 
 get 'homes/about' => 'homes#about' , as:"about"
+get 'post_images/index' => 'post_images#index' , as:"index"
 
 end
