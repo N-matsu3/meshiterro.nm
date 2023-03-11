@@ -59,3 +59,8 @@ Things you may want to cover:
 　　👉　
 　　　「` before_action' for」...まさかの「before」の前に全角の空白が入ったことによるエラーが起きていた。
 　　　空白を削除してOK！
+　　　
+2023/03/11
+🍚　👉bootstrap_template-main
+　　　？？プレビューがテキスト通りにならないのだが？？
+　　　眠過ぎてミスりそうなのでここまで
